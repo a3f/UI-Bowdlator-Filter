@@ -64,9 +64,9 @@ The recv buffer size. This shouldn't need changing. Default is 160.
 
 C<undef> is returned on socket error.
 
-=item suggest($display, @suggestions)
+=item suggest($display, @candidates)
 
-Sends off a suggestion to C<$display> and a list of C<@suggestions> to choose from. (Suggestions list support not immplemented yet).
+Sends off a suggestion to C<$display> and a list of C<@candidates> to choose from. (Candidates list support not immplemented yet).
 
 =item commit(\$commit)
 
@@ -89,4 +89,4 @@ Copyright (C) 2016 Ahmad Fatoum
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-
+=cut

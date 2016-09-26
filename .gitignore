@@ -1,5 +1,5 @@
 .build/
 *.sw*
 .DS_Store
-UI-Bowdlator-InputFilter-*/
-UI-Bowdlator-InputFilter-*.tar.gz
+UI-Bowdlator-Filter-*/
+UI-Bowdlator-Filter-*.tar.gz

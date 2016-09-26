@@ -4,6 +4,7 @@ package UI::Bowdlator::Filter;
 use IO::Socket::UNIX;
 
 # ABSTRACT: Provides convenience function for specifing input Filters to Bowdlator
+our $VERSION = '0.001';
 
 use Carp;
 my $DEFAULT_SOCK = '/usr/local/var/run/bowdlator.sock';
@@ -118,15 +119,15 @@ sub getKey {
     return $_;
 }
 
-=item suggest($display, @suggestions)
+=item suggest($display, @candidates)
 
-Sends off a suggestion to C<$display> and a list of C<@suggestions> to choose from. (Suggestions list support not immplemented yet).
+Sends off a suggestion to C<$display> and a list of C<@candidates> to choose from. (Candidates list support not immplemented yet).
 
 =cut
 
 sub suggest {
 	my $self = shift;
-    my ($displayed, @suggestions) = @_;
+    my ($displayed, @candidates) = @_;
 
     $self->{sock}->write($displayed);
 }
