@@ -4,7 +4,7 @@ package UI::Bowdlator::Filter;
 use IO::Socket::UNIX;
 
 # ABSTRACT: Provides convenience function for specifing input Filters to Bowdlator
-our $VERSION = '0.001';
+# VERSION
 
 use Carp;
 my $DEFAULT_SOCK = '/usr/local/var/run/bowdlator.sock';
@@ -154,7 +154,7 @@ __END__
 
 =head1 GIT REPOSITORY
 
-L<http://github.com/a3f/UI-Bowdlator-Filter>
+L<http://github.com/athreef/UI-Bowdlator-Filter>
 
 =head1 AUTHOR
 

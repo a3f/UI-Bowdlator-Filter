@@ -76,7 +76,7 @@ Sends off the final string to C<$commit>. If C<$commit> is a C<ref>, it will be 
 
 =head1 GIT REPOSITORY
 
-L<http://github.com/a3f/UI-Bowdlator-Filter>
+L<http://github.com/athreef/UI-Bowdlator-Filter>
 
 =head1 AUTHOR
 
